@@ -1,14 +1,25 @@
 .background { 
-    /* The image used */
-    background: url("stockvault-cafe-by-the-beach151324.jpg");
-      
-    /* Full height */
+    background: url("/Images/cafelighttrails.jpg");
     height: 100%; 
-      
-    /* Center and scale the image nicely */
-    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: .65;
+    position: relative;
+}
+
+.jumbotron {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #659DBD;
+    opacity: .80;
+    color: #000000;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
 }
