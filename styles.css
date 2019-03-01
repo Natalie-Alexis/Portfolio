@@ -1,5 +1,5 @@
 .background { 
-    background: url("/Images/cafelighttrails.jpg");
+    background: url("/Images/webvilla-293-unsplash\ \(1\).jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -12,9 +12,8 @@
     left: 0;
     top: 50%;
     width: 100%;
-    text-align: center;
-    padding: 10px;
-    background-color: #659DBD;
+    text-align: center; 
+    background-color: rgb(235, 243, 239);
     opacity: .80;
     color: #000000;
 }
