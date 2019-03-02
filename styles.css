@@ -14,11 +14,38 @@
     width: 100%;
     text-align: center; 
     background-color: rgb(235, 243, 239);
-    opacity: .80;
+    opacity: .75;
     color: #000000;
 }
 
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Palatino', serif;
+}
+
+.mainNav {
+    font-family: 'Palatino', serif;
+}
+
+.backgroundmenu {
+    background: url("/Images/veggiesflare.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron2 {
+    position: relative;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center; 
+    background-color: rgb(235, 243, 239);
+    opacity: .75;
+    color: #000000;
+    padding: 10px 10px 10px 10px;
+
 }
