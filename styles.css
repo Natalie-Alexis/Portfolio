@@ -37,15 +37,16 @@ body, html {
     position: relative;
 }
 
-.jumbotron2 {
-    position: relative;
-    left: 0;
-    top: 25%;
-    width: 100%;
-    text-align: center; 
+.jumbotronmenu {
+    text-align: center;
     background-color: rgb(235, 243, 239);
     opacity: .75;
     color: #000000;
-    padding: 10px 10px 10px 10px;
-
+    padding: 10px 0px 10px 0px;
 }
+
+.footer {
+    background: #8d8741;
+    padding: 10px 0px 0px 0px;
+}
+
