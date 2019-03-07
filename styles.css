@@ -19,6 +19,11 @@
 }
 
 body, html {
+    background: url("/Images/veggiesflare.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100%;
     margin: 0;
     font-family: 'Palatino', serif;
@@ -26,15 +31,6 @@ body, html {
 
 .mainNav {
     font-family: 'Palatino', serif;
-}
-
-.backgroundmenu {
-    background: url("/Images/veggiesflare.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 
 .jumbotronmenu {
@@ -48,5 +44,18 @@ body, html {
 .footer {
     background: #8d8741;
     padding: 10px 0px 0px 0px;
+    width: 100%;
 }
 
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px;
+    border: 1px #000000;
+    min-height: 400px; 
+    text-align: center;
+}
+
+.border {
+    min-height: 300px;
+    width: 100%;
+}
